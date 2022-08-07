@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/client": "^3.3.3",
     "@sanity/image-url": "^1.0.1",
     "autoprefixer": "^10.4.8",
     "next": "12.2.4",
@@ -16,6 +17,8 @@
     "postcss": "^8.4.14",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-portable-text": "^0.4.3",
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {

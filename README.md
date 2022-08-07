@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Medium clone build - Typescript
+This is a Typescript clone build of the blog publishing platform, Medium, website.
+ * Full-Stack, Next.JS with Sanity backend.
+ * SSR & SSG & Next.JS API routes
+ * Fully mobile responsive
 
-## Getting Started
+# Technologies used:
+ * typescript
+ * Next.JS 
+ * Sanity Studio
+ * Tailwind CSS (Tailwind all the way!!)
+ * react hook form
+ * react portable text & next sanity
 
-First, run the development server:
+# What have I learned thus far:
+ * First Next.JS & typescript project -
+   * SSR & SSG (Home page is served SSR while specific Post page is served SSG)
+   * How to implement dynamic page routes.
+   * How to use the API routes that come in Next.
+ * How to implement a Sanity Studio backend 
+   * Write & Query data
+   * Create Schemas that reference other Schemas
+ * First time using React Hook Form
+   * Really cool library to handle form input - https://react-hook-form.com/
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Hurdles Overcome
+ * Understanding how to implement the API routes in Next
+ * Implementing SSR & SSG also dynamic page routes.
+ * Programmatically connecting and querying/writing data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Still to do:
+ * Implement ability to add posts.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Live version hosted on Vercel
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
