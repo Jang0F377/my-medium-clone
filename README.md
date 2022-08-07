@@ -33,4 +33,6 @@ This is a Typescript clone build of the blog publishing platform, Medium, websit
 
 
 # Live version hosted on Vercel
-https://my-medium-clone.vercel.app/
+### https://my-medium-clone.vercel.app/
+![image](https://user-images.githubusercontent.com/51846919/183275056-197cbdb4-7809-46e8-bd99-c2355457f283.png)
+
